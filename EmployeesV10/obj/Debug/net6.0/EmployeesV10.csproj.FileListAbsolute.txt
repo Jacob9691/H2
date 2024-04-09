@@ -1,0 +1,15 @@
+D:\Code\H2\EmployeesV10\bin\Debug\net6.0\EmployeesV10.exe
+D:\Code\H2\EmployeesV10\bin\Debug\net6.0\EmployeesV10.deps.json
+D:\Code\H2\EmployeesV10\bin\Debug\net6.0\EmployeesV10.runtimeconfig.json
+D:\Code\H2\EmployeesV10\bin\Debug\net6.0\EmployeesV10.dll
+D:\Code\H2\EmployeesV10\bin\Debug\net6.0\EmployeesV10.pdb
+D:\Code\H2\EmployeesV10\obj\Debug\net6.0\EmployeesV10.csproj.AssemblyReference.cache
+D:\Code\H2\EmployeesV10\obj\Debug\net6.0\EmployeesV10.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\H2\EmployeesV10\obj\Debug\net6.0\EmployeesV10.AssemblyInfoInputs.cache
+D:\Code\H2\EmployeesV10\obj\Debug\net6.0\EmployeesV10.AssemblyInfo.cs
+D:\Code\H2\EmployeesV10\obj\Debug\net6.0\EmployeesV10.csproj.CoreCompileInputs.cache
+D:\Code\H2\EmployeesV10\obj\Debug\net6.0\EmployeesV10.dll
+D:\Code\H2\EmployeesV10\obj\Debug\net6.0\refint\EmployeesV10.dll
+D:\Code\H2\EmployeesV10\obj\Debug\net6.0\EmployeesV10.pdb
+D:\Code\H2\EmployeesV10\obj\Debug\net6.0\EmployeesV10.genruntimeconfig.cache
+D:\Code\H2\EmployeesV10\obj\Debug\net6.0\ref\EmployeesV10.dll
