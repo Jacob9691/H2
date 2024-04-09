@@ -1,0 +1,15 @@
+D:\Code\H2\WeaponShopV10\bin\Debug\net6.0\WeaponShopV10.exe
+D:\Code\H2\WeaponShopV10\bin\Debug\net6.0\WeaponShopV10.deps.json
+D:\Code\H2\WeaponShopV10\bin\Debug\net6.0\WeaponShopV10.runtimeconfig.json
+D:\Code\H2\WeaponShopV10\bin\Debug\net6.0\WeaponShopV10.dll
+D:\Code\H2\WeaponShopV10\bin\Debug\net6.0\WeaponShopV10.pdb
+D:\Code\H2\WeaponShopV10\obj\Debug\net6.0\WeaponShopV10.csproj.AssemblyReference.cache
+D:\Code\H2\WeaponShopV10\obj\Debug\net6.0\WeaponShopV10.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\H2\WeaponShopV10\obj\Debug\net6.0\WeaponShopV10.AssemblyInfoInputs.cache
+D:\Code\H2\WeaponShopV10\obj\Debug\net6.0\WeaponShopV10.AssemblyInfo.cs
+D:\Code\H2\WeaponShopV10\obj\Debug\net6.0\WeaponShopV10.csproj.CoreCompileInputs.cache
+D:\Code\H2\WeaponShopV10\obj\Debug\net6.0\WeaponShopV10.dll
+D:\Code\H2\WeaponShopV10\obj\Debug\net6.0\refint\WeaponShopV10.dll
+D:\Code\H2\WeaponShopV10\obj\Debug\net6.0\WeaponShopV10.pdb
+D:\Code\H2\WeaponShopV10\obj\Debug\net6.0\WeaponShopV10.genruntimeconfig.cache
+D:\Code\H2\WeaponShopV10\obj\Debug\net6.0\ref\WeaponShopV10.dll
