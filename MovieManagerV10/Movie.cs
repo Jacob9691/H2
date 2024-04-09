@@ -63,7 +63,9 @@
     /// </summary>
     public void Watch()
     {
-        _noOfViews = _noOfViews + 1;
+        //(_noOfViews = _noOfViews + 1;) this could just be _noOfViews++,
+        //since it just adds on to the value, instead of always making it equal to itself plus 1
+        _noOfViews++;
     }
     #endregion
 }

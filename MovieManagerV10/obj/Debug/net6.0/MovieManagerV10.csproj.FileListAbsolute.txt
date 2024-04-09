@@ -1,0 +1,15 @@
+D:\Code\H2\MovieManagerV10\bin\Debug\net6.0\MovieManagerV10.exe
+D:\Code\H2\MovieManagerV10\bin\Debug\net6.0\MovieManagerV10.deps.json
+D:\Code\H2\MovieManagerV10\bin\Debug\net6.0\MovieManagerV10.runtimeconfig.json
+D:\Code\H2\MovieManagerV10\bin\Debug\net6.0\MovieManagerV10.dll
+D:\Code\H2\MovieManagerV10\bin\Debug\net6.0\MovieManagerV10.pdb
+D:\Code\H2\MovieManagerV10\obj\Debug\net6.0\MovieManagerV10.csproj.AssemblyReference.cache
+D:\Code\H2\MovieManagerV10\obj\Debug\net6.0\MovieManagerV10.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\H2\MovieManagerV10\obj\Debug\net6.0\MovieManagerV10.AssemblyInfoInputs.cache
+D:\Code\H2\MovieManagerV10\obj\Debug\net6.0\MovieManagerV10.AssemblyInfo.cs
+D:\Code\H2\MovieManagerV10\obj\Debug\net6.0\MovieManagerV10.csproj.CoreCompileInputs.cache
+D:\Code\H2\MovieManagerV10\obj\Debug\net6.0\MovieManagerV10.dll
+D:\Code\H2\MovieManagerV10\obj\Debug\net6.0\refint\MovieManagerV10.dll
+D:\Code\H2\MovieManagerV10\obj\Debug\net6.0\MovieManagerV10.pdb
+D:\Code\H2\MovieManagerV10\obj\Debug\net6.0\MovieManagerV10.genruntimeconfig.cache
+D:\Code\H2\MovieManagerV10\obj\Debug\net6.0\ref\MovieManagerV10.dll
