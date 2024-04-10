@@ -1,0 +1,15 @@
+D:\Code\H2\GenericRepository\bin\Debug\net6.0\GenericRepository.exe
+D:\Code\H2\GenericRepository\bin\Debug\net6.0\GenericRepository.deps.json
+D:\Code\H2\GenericRepository\bin\Debug\net6.0\GenericRepository.runtimeconfig.json
+D:\Code\H2\GenericRepository\bin\Debug\net6.0\GenericRepository.dll
+D:\Code\H2\GenericRepository\bin\Debug\net6.0\GenericRepository.pdb
+D:\Code\H2\GenericRepository\obj\Debug\net6.0\GenericRepository.csproj.AssemblyReference.cache
+D:\Code\H2\GenericRepository\obj\Debug\net6.0\GenericRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\H2\GenericRepository\obj\Debug\net6.0\GenericRepository.AssemblyInfoInputs.cache
+D:\Code\H2\GenericRepository\obj\Debug\net6.0\GenericRepository.AssemblyInfo.cs
+D:\Code\H2\GenericRepository\obj\Debug\net6.0\GenericRepository.csproj.CoreCompileInputs.cache
+D:\Code\H2\GenericRepository\obj\Debug\net6.0\GenericRepository.dll
+D:\Code\H2\GenericRepository\obj\Debug\net6.0\refint\GenericRepository.dll
+D:\Code\H2\GenericRepository\obj\Debug\net6.0\GenericRepository.pdb
+D:\Code\H2\GenericRepository\obj\Debug\net6.0\GenericRepository.genruntimeconfig.cache
+D:\Code\H2\GenericRepository\obj\Debug\net6.0\ref\GenericRepository.dll
