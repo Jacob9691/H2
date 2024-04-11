@@ -20,6 +20,11 @@ BetterObjectComparer<Dog> dogComparer = new();
 BetterObjectComparer<Circle> circleComparer = new();
 Console.WriteLine(dogComparer.Largest(dog1, dog2, dog3));
 Console.WriteLine(circleComparer.Largest(c1, c2, c3));
+
+Console.WriteLine();
+EvenBetterObjectComparer betterComparer = new();
+IComparer<Dog> comparer = new();
+Console.WriteLine(betterComparer.Largest<Circle>(c1, c2, c3, betterCircleComp));
 #endregion
 
 
