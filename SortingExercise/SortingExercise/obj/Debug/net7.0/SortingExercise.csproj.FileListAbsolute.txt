@@ -1,0 +1,15 @@
+C:\Code\H2\SortingExercise\SortingExercise\bin\Debug\net7.0\SortingExercise.exe
+C:\Code\H2\SortingExercise\SortingExercise\bin\Debug\net7.0\SortingExercise.deps.json
+C:\Code\H2\SortingExercise\SortingExercise\bin\Debug\net7.0\SortingExercise.runtimeconfig.json
+C:\Code\H2\SortingExercise\SortingExercise\bin\Debug\net7.0\SortingExercise.dll
+C:\Code\H2\SortingExercise\SortingExercise\bin\Debug\net7.0\SortingExercise.pdb
+C:\Code\H2\SortingExercise\SortingExercise\obj\Debug\net7.0\SortingExercise.csproj.AssemblyReference.cache
+C:\Code\H2\SortingExercise\SortingExercise\obj\Debug\net7.0\SortingExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\H2\SortingExercise\SortingExercise\obj\Debug\net7.0\SortingExercise.AssemblyInfoInputs.cache
+C:\Code\H2\SortingExercise\SortingExercise\obj\Debug\net7.0\SortingExercise.AssemblyInfo.cs
+C:\Code\H2\SortingExercise\SortingExercise\obj\Debug\net7.0\SortingExercise.csproj.CoreCompileInputs.cache
+C:\Code\H2\SortingExercise\SortingExercise\obj\Debug\net7.0\SortingExercise.dll
+C:\Code\H2\SortingExercise\SortingExercise\obj\Debug\net7.0\refint\SortingExercise.dll
+C:\Code\H2\SortingExercise\SortingExercise\obj\Debug\net7.0\SortingExercise.pdb
+C:\Code\H2\SortingExercise\SortingExercise\obj\Debug\net7.0\SortingExercise.genruntimeconfig.cache
+C:\Code\H2\SortingExercise\SortingExercise\obj\Debug\net7.0\ref\SortingExercise.dll
