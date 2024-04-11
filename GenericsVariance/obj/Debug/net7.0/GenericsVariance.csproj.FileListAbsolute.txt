@@ -1,0 +1,15 @@
+C:\Code\H2\GenericsVariance\bin\Debug\net7.0\GenericsVariance.exe
+C:\Code\H2\GenericsVariance\bin\Debug\net7.0\GenericsVariance.deps.json
+C:\Code\H2\GenericsVariance\bin\Debug\net7.0\GenericsVariance.runtimeconfig.json
+C:\Code\H2\GenericsVariance\bin\Debug\net7.0\GenericsVariance.dll
+C:\Code\H2\GenericsVariance\bin\Debug\net7.0\GenericsVariance.pdb
+C:\Code\H2\GenericsVariance\obj\Debug\net7.0\GenericsVariance.csproj.AssemblyReference.cache
+C:\Code\H2\GenericsVariance\obj\Debug\net7.0\GenericsVariance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\H2\GenericsVariance\obj\Debug\net7.0\GenericsVariance.AssemblyInfoInputs.cache
+C:\Code\H2\GenericsVariance\obj\Debug\net7.0\GenericsVariance.AssemblyInfo.cs
+C:\Code\H2\GenericsVariance\obj\Debug\net7.0\GenericsVariance.csproj.CoreCompileInputs.cache
+C:\Code\H2\GenericsVariance\obj\Debug\net7.0\GenericsVariance.dll
+C:\Code\H2\GenericsVariance\obj\Debug\net7.0\refint\GenericsVariance.dll
+C:\Code\H2\GenericsVariance\obj\Debug\net7.0\GenericsVariance.pdb
+C:\Code\H2\GenericsVariance\obj\Debug\net7.0\GenericsVariance.genruntimeconfig.cache
+C:\Code\H2\GenericsVariance\obj\Debug\net7.0\ref\GenericsVariance.dll
