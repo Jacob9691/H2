@@ -54,5 +54,4 @@ phones.PrintAll();
     1: They both use an Insert method, to add to their lists, and they also have a delete method. 
         Where it deletes an item, with using it's name as a key. They can also both call a all list,
         to see every item in their list.
-    2: 
  */
