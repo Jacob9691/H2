@@ -1,0 +1,15 @@
+C:\Code\H2\LambdaAnimals\bin\Debug\net7.0\LambdaAnimals.exe
+C:\Code\H2\LambdaAnimals\bin\Debug\net7.0\LambdaAnimals.deps.json
+C:\Code\H2\LambdaAnimals\bin\Debug\net7.0\LambdaAnimals.runtimeconfig.json
+C:\Code\H2\LambdaAnimals\bin\Debug\net7.0\LambdaAnimals.dll
+C:\Code\H2\LambdaAnimals\bin\Debug\net7.0\LambdaAnimals.pdb
+C:\Code\H2\LambdaAnimals\obj\Debug\net7.0\LambdaAnimals.csproj.AssemblyReference.cache
+C:\Code\H2\LambdaAnimals\obj\Debug\net7.0\LambdaAnimals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\H2\LambdaAnimals\obj\Debug\net7.0\LambdaAnimals.AssemblyInfoInputs.cache
+C:\Code\H2\LambdaAnimals\obj\Debug\net7.0\LambdaAnimals.AssemblyInfo.cs
+C:\Code\H2\LambdaAnimals\obj\Debug\net7.0\LambdaAnimals.csproj.CoreCompileInputs.cache
+C:\Code\H2\LambdaAnimals\obj\Debug\net7.0\LambdaAnimals.dll
+C:\Code\H2\LambdaAnimals\obj\Debug\net7.0\refint\LambdaAnimals.dll
+C:\Code\H2\LambdaAnimals\obj\Debug\net7.0\LambdaAnimals.pdb
+C:\Code\H2\LambdaAnimals\obj\Debug\net7.0\LambdaAnimals.genruntimeconfig.cache
+C:\Code\H2\LambdaAnimals\obj\Debug\net7.0\ref\LambdaAnimals.dll
