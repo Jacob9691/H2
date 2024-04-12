@@ -1,5 +1,5 @@
 ﻿
-public class Circle : IComparable<Circle>
+public class Circle
 {
     #region Properties
     public double Radius { get; }

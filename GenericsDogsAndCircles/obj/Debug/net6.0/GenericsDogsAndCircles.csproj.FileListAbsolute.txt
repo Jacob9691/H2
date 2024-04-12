@@ -1,0 +1,15 @@
+D:\Code\H2\GenericsDogsAndCircles\obj\Debug\net6.0\GenericsDogsAndCircles.csproj.AssemblyReference.cache
+D:\Code\H2\GenericsDogsAndCircles\obj\Debug\net6.0\GenericsDogsAndCircles.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\H2\GenericsDogsAndCircles\obj\Debug\net6.0\GenericsDogsAndCircles.AssemblyInfoInputs.cache
+D:\Code\H2\GenericsDogsAndCircles\obj\Debug\net6.0\GenericsDogsAndCircles.AssemblyInfo.cs
+D:\Code\H2\GenericsDogsAndCircles\obj\Debug\net6.0\GenericsDogsAndCircles.csproj.CoreCompileInputs.cache
+D:\Code\H2\GenericsDogsAndCircles\bin\Debug\net6.0\GenericsDogsAndCircles.exe
+D:\Code\H2\GenericsDogsAndCircles\bin\Debug\net6.0\GenericsDogsAndCircles.deps.json
+D:\Code\H2\GenericsDogsAndCircles\bin\Debug\net6.0\GenericsDogsAndCircles.runtimeconfig.json
+D:\Code\H2\GenericsDogsAndCircles\bin\Debug\net6.0\GenericsDogsAndCircles.dll
+D:\Code\H2\GenericsDogsAndCircles\bin\Debug\net6.0\GenericsDogsAndCircles.pdb
+D:\Code\H2\GenericsDogsAndCircles\obj\Debug\net6.0\GenericsDogsAndCircles.dll
+D:\Code\H2\GenericsDogsAndCircles\obj\Debug\net6.0\refint\GenericsDogsAndCircles.dll
+D:\Code\H2\GenericsDogsAndCircles\obj\Debug\net6.0\GenericsDogsAndCircles.pdb
+D:\Code\H2\GenericsDogsAndCircles\obj\Debug\net6.0\GenericsDogsAndCircles.genruntimeconfig.cache
+D:\Code\H2\GenericsDogsAndCircles\obj\Debug\net6.0\ref\GenericsDogsAndCircles.dll
