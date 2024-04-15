@@ -1,0 +1,15 @@
+D:\Code\H2\ProducerConsumer\bin\Debug\net6.0\ProducerConsumer.exe
+D:\Code\H2\ProducerConsumer\bin\Debug\net6.0\ProducerConsumer.deps.json
+D:\Code\H2\ProducerConsumer\bin\Debug\net6.0\ProducerConsumer.runtimeconfig.json
+D:\Code\H2\ProducerConsumer\bin\Debug\net6.0\ProducerConsumer.dll
+D:\Code\H2\ProducerConsumer\bin\Debug\net6.0\ProducerConsumer.pdb
+D:\Code\H2\ProducerConsumer\obj\Debug\net6.0\ProducerConsumer.csproj.AssemblyReference.cache
+D:\Code\H2\ProducerConsumer\obj\Debug\net6.0\ProducerConsumer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\H2\ProducerConsumer\obj\Debug\net6.0\ProducerConsumer.AssemblyInfoInputs.cache
+D:\Code\H2\ProducerConsumer\obj\Debug\net6.0\ProducerConsumer.AssemblyInfo.cs
+D:\Code\H2\ProducerConsumer\obj\Debug\net6.0\ProducerConsumer.csproj.CoreCompileInputs.cache
+D:\Code\H2\ProducerConsumer\obj\Debug\net6.0\ProducerConsumer.dll
+D:\Code\H2\ProducerConsumer\obj\Debug\net6.0\refint\ProducerConsumer.dll
+D:\Code\H2\ProducerConsumer\obj\Debug\net6.0\ProducerConsumer.pdb
+D:\Code\H2\ProducerConsumer\obj\Debug\net6.0\ProducerConsumer.genruntimeconfig.cache
+D:\Code\H2\ProducerConsumer\obj\Debug\net6.0\ref\ProducerConsumer.dll
