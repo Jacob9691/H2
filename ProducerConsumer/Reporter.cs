@@ -18,6 +18,7 @@ public class Reporter<T> where T : new()
     private ReportMode _mode;
     private int _goodBalances;
     private int _badBalances;
+    private readonly object _taskLock = new();
     #endregion
 
     #region Constructor
@@ -46,27 +47,30 @@ public class Reporter<T> where T : new()
     /// </summary>
     public void Report()
     {
-        bool balanceIsGood = _queue.CountCurrent + _consumer.ItemsConsumed ==
+        lock (_taskLock)
+        {
+            bool balanceIsGood = _queue.CountCurrent + _consumer.ItemsConsumed ==
                                 _queue.CountInitial + _producer.ItemsProduced;
-        if (balanceIsGood)
-        {
-            _goodBalances++;
-        }
-        else
-        {
-            _badBalances++;
-        }
+            if (balanceIsGood)
+            {
+                _goodBalances++;
+            }
+            else
+            {
+                _badBalances++;
+            }
 
-        // In "verbose" mode, the stats are printed whenever Report is called.
-        if (_mode == ReportMode.verbose)
-        {
-            Console.Clear();
-            Console.SetCursorPosition(0, 0);
-            Console.WriteLine($"Items in queue : {_queue.CountCurrent}");
-            Console.WriteLine($"Items produced : {_producer.ItemsProduced}");
-            Console.WriteLine($"Items consumed : {_consumer.ItemsConsumed}");
-            Console.WriteLine("------------------------------");
-            Console.WriteLine(balanceIsGood ? "All is fine..." : "Oops, inconsistent balance!");
+            // In "verbose" mode, the stats are printed whenever Report is called.
+            if (_mode == ReportMode.verbose)
+            {
+                Console.Clear();
+                Console.SetCursorPosition(0, 0);
+                Console.WriteLine($"Items in queue : {_queue.CountCurrent}");
+                Console.WriteLine($"Items produced : {_producer.ItemsProduced}");
+                Console.WriteLine($"Items consumed : {_consumer.ItemsConsumed}");
+                Console.WriteLine("------------------------------");
+                Console.WriteLine(balanceIsGood ? "All is fine..." : "Oops, inconsistent balance!");
+            }
         }
     }
 
