@@ -44,10 +44,12 @@ public class Scenario<T> where T : new()
     /// <returns></returns>
     public async Task RunAsync()
     {
-        Task taskProduce = Task.Run(() => ProduceWithRandomDelay(_iterations, _producerDelay));
+        Task taskProduce = Task.Run(() => ProduceWithRandomDelay(_iterations / 2, _producerDelay));
+        Task taskProduce2 = Task.Run(() => ProduceWithRandomDelay(_iterations / 2, _producerDelay));
         Task taskConsume = Task.Run(() => ConsumeWithRandomDelay(_iterations, _consumerDelay));
 
         await taskProduce;
+        await taskProduce2;
         await taskConsume;
 
         _reporter.ReportFinal();

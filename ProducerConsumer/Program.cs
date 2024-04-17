@@ -3,7 +3,7 @@
 
 // Sets up and starts a scenario
 // Scenario<Data> theScenario = new Scenario<Data>(40, 20, 40, 100, 80, Reporter<Data>.ReportMode.verbose);
-Scenario<Data> theScenario = new Scenario<Data>(1000, 500, 1000, 3, 2, Reporter<Data>.ReportMode.silent);
+Scenario<Data> theScenario = new Scenario<Data>(1000, 500, 1000, 2, 2, Reporter<Data>.ReportMode.verbose);
 await theScenario.RunAsync();
 
 Console.WriteLine("Press any key to abort the run...");
@@ -19,4 +19,10 @@ Console.ReadKey();
         doesn't wait for the scenario to finish. We don't see it in verbose mode, because it's get cleared away,
         when the tasks start printing. But that line should be the last one to be printed. 
         Therefore an await is needed.
+    6: The data that can be accessed by both the producer and consumer, is the queue. But the reason for why
+        there is balances problems, is that there are being consumed more than there is produce. 
+        And that is haft to do with the delay. So the delay have to be depended on how much is being pruduce
+        and consumed.
+    7: By add one more task for the producer, then production will be a lot faster. The same can be said for consumer,
+        if there was added a task more for them.
  */
