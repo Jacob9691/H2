@@ -29,7 +29,16 @@ namespace MergeSort
 
         public void ShuffleArray<T>(T[] arr)
         {
-            random.Shuffle(arr);
+            // random.Shuffle(arr); can't use this because I only have .net 6
+
+            int n = arr.Length;
+            while (n > 1)
+            {
+                int k = random.Next(n--);
+                T temp = arr[n];
+                arr[n] = arr[k];
+                arr[k] = temp;
+            }
         }
 
     }
