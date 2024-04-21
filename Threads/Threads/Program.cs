@@ -17,15 +17,41 @@ namespace Threads
             //HalloFromThread halloFromThread2 = new (2);
             //Task taks1 = Task.Run(() => halloFromThread1.ThreadHallos());
             //Task taks2 = Task.Run(() => halloFromThread2.ThreadHallos
+            //Task.WaitAll(taks1, taks2);
+
+            //SharingIsCaring share = new ();
+            //Task taskAdd = Task.Run(() => share.Add());
+            //Task taskRead = Task.Run(() => share.Read());
+            //Console.WriteLine("Main: Waiting for threads to finish");
+            //Task.WaitAll(taskAdd, taskRead);
+            Console.WriteLine("Write a number of tasks between 1-100");
+            int tasks = int.Parse(Console.ReadLine()!);
+            Console.WriteLine("Write how many milliseconds a thrad should sleep");
+            int sleep = int.Parse(Console.ReadLine()!);
             
-            SharingIsCaring share = new ();
-            Task taskAdd = Task.Run(() => share.Add());
-            Task taskRead = Task.Run(() => share.Read());
+            Vector vector = new Vector();
+            for (int i = 1; i <= tasks; i++)
+            {
+                try
+                {
+                    Task<bool> writerTask = Task<bool>.Run(() => vector.SetAndTest(i));
 
+                    if (writerTask.Result)
+                    {
+                        Console.WriteLine($"Writer {i}: All is good");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Writer {i}: All is bad");
+                    }
 
-
-            Console.WriteLine("Main: Waiting for threads to finish");
-            Task.WaitAll(taskAdd, taskRead);
+                    Thread.Sleep(sleep);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error in Writer {i}: {ex.Message}");
+                }      
+            }
 
             Console.WriteLine("Main: Exiting");
         }
