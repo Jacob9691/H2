@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MergeSort",
+    "\\MergeSort\\MergeSort"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\SortingExercise.sln",
+=======
+  "SelectedNode": "\\MergeSort\\MergeSort\\ThreadpoolParallelMergeSort.cs",
+>>>>>>> 659ba6be9dc424416ced50c14ba421306c7a748b
   "PreviewInSolutionExplorer": false
 }

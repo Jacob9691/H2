@@ -1,0 +1,15 @@
+D:\Code\H2\NumericalPi\bin\Debug\net6.0\NumericalPi.exe
+D:\Code\H2\NumericalPi\bin\Debug\net6.0\NumericalPi.deps.json
+D:\Code\H2\NumericalPi\bin\Debug\net6.0\NumericalPi.runtimeconfig.json
+D:\Code\H2\NumericalPi\bin\Debug\net6.0\NumericalPi.dll
+D:\Code\H2\NumericalPi\bin\Debug\net6.0\NumericalPi.pdb
+D:\Code\H2\NumericalPi\obj\Debug\net6.0\NumericalPi.csproj.AssemblyReference.cache
+D:\Code\H2\NumericalPi\obj\Debug\net6.0\NumericalPi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\H2\NumericalPi\obj\Debug\net6.0\NumericalPi.AssemblyInfoInputs.cache
+D:\Code\H2\NumericalPi\obj\Debug\net6.0\NumericalPi.AssemblyInfo.cs
+D:\Code\H2\NumericalPi\obj\Debug\net6.0\NumericalPi.csproj.CoreCompileInputs.cache
+D:\Code\H2\NumericalPi\obj\Debug\net6.0\NumericalPi.dll
+D:\Code\H2\NumericalPi\obj\Debug\net6.0\refint\NumericalPi.dll
+D:\Code\H2\NumericalPi\obj\Debug\net6.0\NumericalPi.pdb
+D:\Code\H2\NumericalPi\obj\Debug\net6.0\NumericalPi.genruntimeconfig.cache
+D:\Code\H2\NumericalPi\obj\Debug\net6.0\ref\NumericalPi.dll

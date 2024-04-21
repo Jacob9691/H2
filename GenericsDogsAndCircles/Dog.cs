@@ -1,5 +1,5 @@
 ﻿
-public class Dog : IComparable<Dog>
+public class Dog
 {
     #region Properties
     public string Name { get; }

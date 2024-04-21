@@ -1,0 +1,15 @@
+D:\Code\H2\CrossTalk\bin\Debug\net6.0\CrossTalk.exe
+D:\Code\H2\CrossTalk\bin\Debug\net6.0\CrossTalk.deps.json
+D:\Code\H2\CrossTalk\bin\Debug\net6.0\CrossTalk.runtimeconfig.json
+D:\Code\H2\CrossTalk\bin\Debug\net6.0\CrossTalk.dll
+D:\Code\H2\CrossTalk\bin\Debug\net6.0\CrossTalk.pdb
+D:\Code\H2\CrossTalk\obj\Debug\net6.0\CrossTalk.csproj.AssemblyReference.cache
+D:\Code\H2\CrossTalk\obj\Debug\net6.0\CrossTalk.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\H2\CrossTalk\obj\Debug\net6.0\CrossTalk.AssemblyInfoInputs.cache
+D:\Code\H2\CrossTalk\obj\Debug\net6.0\CrossTalk.AssemblyInfo.cs
+D:\Code\H2\CrossTalk\obj\Debug\net6.0\CrossTalk.csproj.CoreCompileInputs.cache
+D:\Code\H2\CrossTalk\obj\Debug\net6.0\CrossTalk.dll
+D:\Code\H2\CrossTalk\obj\Debug\net6.0\refint\CrossTalk.dll
+D:\Code\H2\CrossTalk\obj\Debug\net6.0\CrossTalk.pdb
+D:\Code\H2\CrossTalk\obj\Debug\net6.0\CrossTalk.genruntimeconfig.cache
+D:\Code\H2\CrossTalk\obj\Debug\net6.0\ref\CrossTalk.dll

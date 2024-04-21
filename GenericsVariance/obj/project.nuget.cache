@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XgZifKv5H/q+pwrF6ZbXYTe/45bE482iDUaz5942IMvWpOpIJEdC/gHu5lwv82Z/g5E0QVt2bKW+VmWkBTR3/g==",
+  "dgSpecHash": "ZNqVOAKtzNT9MA2Z8vHhYEWOsF+/RYOyOarKBNET0U3L8A5ZbSgqJS5waDWuBjnSfpsOUcfrbVsH7QMcg4RDng==",
   "success": true,
-  "projectFilePath": "C:\\Code\\H2\\GenericsVariance\\GenericsVariance.csproj",
+  "projectFilePath": "D:\\Code\\H2\\GenericsVariance\\GenericsVariance.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

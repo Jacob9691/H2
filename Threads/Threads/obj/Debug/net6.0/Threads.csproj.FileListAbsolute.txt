@@ -1,0 +1,15 @@
+D:\Code\H2\Threads\Threads\bin\Debug\net6.0\Threads.exe
+D:\Code\H2\Threads\Threads\bin\Debug\net6.0\Threads.deps.json
+D:\Code\H2\Threads\Threads\bin\Debug\net6.0\Threads.runtimeconfig.json
+D:\Code\H2\Threads\Threads\bin\Debug\net6.0\Threads.dll
+D:\Code\H2\Threads\Threads\bin\Debug\net6.0\Threads.pdb
+D:\Code\H2\Threads\Threads\obj\Debug\net6.0\Threads.csproj.AssemblyReference.cache
+D:\Code\H2\Threads\Threads\obj\Debug\net6.0\Threads.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\H2\Threads\Threads\obj\Debug\net6.0\Threads.AssemblyInfoInputs.cache
+D:\Code\H2\Threads\Threads\obj\Debug\net6.0\Threads.AssemblyInfo.cs
+D:\Code\H2\Threads\Threads\obj\Debug\net6.0\Threads.csproj.CoreCompileInputs.cache
+D:\Code\H2\Threads\Threads\obj\Debug\net6.0\Threads.dll
+D:\Code\H2\Threads\Threads\obj\Debug\net6.0\refint\Threads.dll
+D:\Code\H2\Threads\Threads\obj\Debug\net6.0\Threads.pdb
+D:\Code\H2\Threads\Threads\obj\Debug\net6.0\Threads.genruntimeconfig.cache
+D:\Code\H2\Threads\Threads\obj\Debug\net6.0\ref\Threads.dll
