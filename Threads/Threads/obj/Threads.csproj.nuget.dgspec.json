@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\H2\\Threads\\Threads\\Threads.csproj": {}
+    "D:\\Code\\H2\\Threads\\Threads\\Threads.csproj": {}
   },
   "projects": {
-    "C:\\Code\\H2\\Threads\\Threads\\Threads.csproj": {
+    "D:\\Code\\H2\\Threads\\Threads\\Threads.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\H2\\Threads\\Threads\\Threads.csproj",
+        "projectUniqueName": "D:\\Code\\H2\\Threads\\Threads\\Threads.csproj",
         "projectName": "Threads",
-        "projectPath": "C:\\Code\\H2\\Threads\\Threads\\Threads.csproj",
-        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\H2\\Threads\\Threads\\obj\\",
+        "projectPath": "D:\\Code\\H2\\Threads\\Threads\\Threads.csproj",
+        "packagesPath": "C:\\Users\\jacob\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\H2\\Threads\\Threads\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

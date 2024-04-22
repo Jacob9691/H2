@@ -62,13 +62,18 @@ namespace Threads
             - if main return immediately after creating the threads, it well print out the last line,
                 before the threads have ended. So when it says the program is finished,
                 it isn't true, since the threads are still running.
-            Exercise 2 Sharing data between threads
+            Exercise 2 Sharing data between threads:
             - The problem of just letting the two threads add and reas, is that they are not waiting for each other.
                 So the read thread can read share two times before the add thread adds on the share value. 
                 This can be fixed by putting in a lock in the two methods. Then they have to wait for each other,
                 since only one thread can be in the lock.
-            Exercise 3: Sharing a Vector Class Between Threads
-            - 
+            Exercise 3: Sharing a Vector Class Between Threads:
+            - The threads have no truble writing in the vector object, but that is mostly because they are created
+                in a row, so there are no conflict. But the problem with this, is that you can't be sure the threads
+                won't create conflicts. So you still need something like a lock to make sure there will be no conflicts.
+            Exercise 4: Tweaking Parameters:
+            - I have no problems, but what could be one, is if the thread sleep is very low. Then there is a bigger
+                chance that the threads overlap and creates conflicts in data. 
          */
     }
 }
