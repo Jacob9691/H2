@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrossTalk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12bfc17a87833cebe7fa5f163fcbc892244506eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrossTalk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrossTalk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

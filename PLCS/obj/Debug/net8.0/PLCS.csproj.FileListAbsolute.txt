@@ -1,0 +1,15 @@
+D:\Code\H2\PLCS\bin\Debug\net8.0\PLCS.exe
+D:\Code\H2\PLCS\bin\Debug\net8.0\PLCS.deps.json
+D:\Code\H2\PLCS\bin\Debug\net8.0\PLCS.runtimeconfig.json
+D:\Code\H2\PLCS\bin\Debug\net8.0\PLCS.dll
+D:\Code\H2\PLCS\bin\Debug\net8.0\PLCS.pdb
+D:\Code\H2\PLCS\obj\Debug\net8.0\PLCS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\H2\PLCS\obj\Debug\net8.0\PLCS.AssemblyInfoInputs.cache
+D:\Code\H2\PLCS\obj\Debug\net8.0\PLCS.AssemblyInfo.cs
+D:\Code\H2\PLCS\obj\Debug\net8.0\PLCS.csproj.CoreCompileInputs.cache
+D:\Code\H2\PLCS\obj\Debug\net8.0\PLCS.sourcelink.json
+D:\Code\H2\PLCS\obj\Debug\net8.0\PLCS.dll
+D:\Code\H2\PLCS\obj\Debug\net8.0\refint\PLCS.dll
+D:\Code\H2\PLCS\obj\Debug\net8.0\PLCS.pdb
+D:\Code\H2\PLCS\obj\Debug\net8.0\PLCS.genruntimeconfig.cache
+D:\Code\H2\PLCS\obj\Debug\net8.0\ref\PLCS.dll
