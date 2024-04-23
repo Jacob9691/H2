@@ -74,6 +74,20 @@ namespace Threads
             Exercise 4: Tweaking Parameters:
             - I have no problems, but what could be one, is if the thread sleep is very low. Then there is a bigger
                 chance that the threads overlap and creates conflicts in data. 
+
+        Task notes Pro 5.3
+            Exercise 1 Mutex and/or Semaphore:
+            - The mutex limits the access to only one thread at a time, while the semophore limits to a
+                selected amounts of threads. To make sure the vector object doesn't have conflicts, it would
+                be best to use a mutex, since only one thread sould edit the vector, to avoid conflicts.
+                A Semaphore wouldn't fix the problem here, since letting more threads in is what creates the problem.
+            Exercise 2 Using the synchronization primitive:
+            - By having the mutex, now only one thread can set on the vector. So now the error wouldn't happen.
+            Exercise 3 Ensuring proper unlocking
+            - I made a ScopedLocker class that uses the IDisposable interface, that releases unmanaged resources.
+                So when one thread is done with their mutex, it will be released. Even though using a try-finally
+                would give the same result. Since it will release when the try part is done, but it won't if something
+                gets catched, but then an exception should be thrown. 
          */
     }
 }

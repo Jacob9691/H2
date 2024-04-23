@@ -11,6 +11,10 @@ namespace Threads
         private int[] vector;
         private int size;
 
+        //static Mutex myMutex = new Mutex();
+        //static Semaphore mySemaphore = new Semaphore(2, 2);
+        private readonly Mutex _resourceMutex = new Mutex();
+
         public Vector()
         {
             size = 10000;
@@ -20,8 +24,33 @@ namespace Threads
 
         public bool SetAndTest(int n)
         {
-            Set(n);
-            return Test(n);
+            //myMutex.WaitOne();
+            //try
+            //{
+            //    Set(n);
+            //    return Test(n);
+            //}
+            //finally
+            //{
+            //    myMutex.ReleaseMutex();
+            //}
+
+            //mySemaphore.WaitOne();
+            //try
+            //{
+            //    Set(n);
+            //    return Test(n);
+            //}
+            //finally
+            //{
+            //    mySemaphore.Release();
+            //}
+
+            using (var scopedLocker = new ScopedLocker(_resourceMutex))
+            {
+                Set(n);
+                return Test(n);
+            }
         }
 
         private void Set(int n)
