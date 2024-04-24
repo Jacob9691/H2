@@ -14,26 +14,26 @@ List<Car> cars = new List<Car>
     new(9),
     new(10)
 };
+List<Task> tasks = new List<Task>(); 
 
 try
 {
-    for (int i = 0; i < 5; i++)
+    foreach (Car car in cars)
     {
-        foreach (Car car in cars)
+        try
+        { 
+            tasks.Add(Task.Run(() =>
+            {
+                PLCS.EnterParkingLot(car.CarPlate);
+            }));
+        }
+        catch (Exception ex)
         {
-            try
-            {
-                Thread.Sleep(1000);
-                ThreadPool.QueueUserWorkItem(_ => PLCS.EnterParkingLot(car.CarPlate));
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error with car {car.CarPlate}: " + ex.ToString());
-            }
-        }    
+            Console.WriteLine($"Error with car {car.CarPlate}: " + ex.ToString());
+        }
     }
-
-    Console.WriteLine("The parking lot is now closed for today...");
+    Task.WaitAll(Task.WhenAll(tasks));
+    Console.WriteLine("The parking lot has closed");
     Console.ReadLine();
 }
 catch (Exception ex)

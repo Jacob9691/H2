@@ -11,33 +11,52 @@ namespace PLCS
 
         Random rng = new Random();
 
-        private List<int> _parkingSpace = new List<int>();
+        private static readonly ConcurrentQueue<int> ParkingSpace = new ConcurrentQueue<int>();
 
         public ParkingLotControlSystem() { }
 
-        public void EnterParkingLot (int carPlate)
+        public async void EnterParkingLot (int carPlate)
         {
-            while (_parkingSpace.Count > 5)
-            {
-                Thread.Sleep(1000);
-            }
-            lock(_entryGuard) 
-            {
-                Console.WriteLine($"Car {carPlate} has entered the parking lot");
-                _parkingSpace.Add(carPlate);
-            }
+            RequestEntryPermission(carPlate);
             Thread.Sleep(rng.Next(1000, 10000));
             ExitParkingLot(carPlate);
+            await Task.Delay(25);
+        }
+
+        private void RequestEntryPermission(int carPlate) 
+        {
+            while (true)
+            {
+                int itemCount;
+                lock (_entryGuard)
+                {
+                    itemCount = ParkingSpace.Count;
+
+                    if (itemCount <= 1)
+                    {
+                        ParkingSpace.Enqueue(carPlate);
+                        Console.WriteLine($"Car {carPlate} has entered the parking lot");
+                        break;
+                    }
+                }
+
+                Thread.Sleep(50);
+            }
         }
 
         private void ExitParkingLot (int carPlate)
         {
             lock(_exitGuard)
             {
-                Console.WriteLine($"Car {carPlate} has exited the parking lot");
-                _parkingSpace.Remove(carPlate);
+                if (ParkingSpace.TryDequeue(out carPlate))
+                {
+                    Console.WriteLine($"Car {carPlate} has exited the parking lot");
+                }
+                else
+                {
+                    Console.WriteLine($"Error: car {carPlate} couldn't be found in queue");
+                }
             }
-            Thread.Sleep(rng.Next(1000, 10000));
         }
     }
 }
